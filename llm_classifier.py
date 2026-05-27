@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyDT_VjB6eOzuztT5BxxicOjaWvbsCJUrts")
+client = genai.Client(api_key="")
 
 def classify_query(query):
     prompt = f"""
